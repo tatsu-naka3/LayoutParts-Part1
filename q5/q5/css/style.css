@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+.item {
+  width: 65px;
+  margin: 10px;
+  padding: 10px;
+  background: #00bbdd;
+  color: #fff;
+  text-align: center;
+}
+
+.flex--container--row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex--container--row--reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex--container--column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex--container--column--reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.flex--container--nowrap {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex--container--wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex--container--wrap--reverse {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.flex--container--flex--start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex--container--flex--end {
+  display: flex;
+  justify-content: end;
+}
+
+.flex--container--center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex--container--space--between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex--container--space--around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grid--item {
+  padding: 10px;
+  color: #fff;
+  background: #00bbdd;
+}
+
+.grid--container--temple--columns {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.grid--container--fr {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.grid--container--rows {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  grid-template-rows: 200px 200px;
+  margin-bottom: 20px;
+}
+
+.grid--container--colorful {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  gap: 10px;
+}
+
+.red--item {
+  background: #dd0700;
+  grid-column: 1/3;
+}
+
+.green--item {
+  background: #0bdd00;
+  grid-row: 2/4;
+}
+
+.yellow--item {
+  background: #d9dd00;
+  grid-column: 2/4;
+}
