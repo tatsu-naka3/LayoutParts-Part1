@@ -118,3 +118,9 @@
   background: #d9dd00;
   grid-column: 2/4;
 }
+
+/* 
+.grid--item:nth-child(2),
+.grid--item:nth-child(5) {
+  width: 400px;
+} */
